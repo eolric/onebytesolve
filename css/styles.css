@@ -10904,7 +10904,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #0097b2;
 }
 
 @media (min-width: 992px) {
@@ -10974,16 +10974,16 @@ header.masthead .masthead-heading {
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-style: italic;
-    line-height: 2.25rem;
+    line-height: 2.5rem;
     margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 #portfolio .portfolio-item {
