@@ -7,6 +7,25 @@
 // Scripts
 // 
 
+let form = document.querySelector("#contactForm");
+let btn = document.querySelector("#submitButton")
+
+function validar(){
+    let deshabilitar = false;
+
+    if(form.name.value == "" || form.email.value == "" || form.phone.value == "" || form.coments.value == ""){
+        deshabilitar = true;
+    }
+    if(deshabilitar == true){
+        btn.disabled = true;
+    }
+    else{
+        btn.disabled = false;
+    }
+}
+
+form.addEventListener("keyup", validar);
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
